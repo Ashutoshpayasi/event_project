@@ -1,0 +1,36 @@
+.singleProposal{
+    border: 2px solid #cccc;
+    width: 85%;
+    margin: 15px auto;
+}
+.singleProposal .eventName{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 5px 10px;
+}
+.singleProposal .eventDesc{
+    padding: 5px 10px;
+    color: #081838;
+}
+.detailsContainer{
+    display: flex;
+
+}
+.details {
+    padding: 5px;
+}
+.details {
+    color: #C7C7C7;
+}
+.details section{
+    color: #081838;
+    font-weight: bold;
+    padding: 15px 0px;
+}
+.detailsContainer *{
+    width: 60%;
+}
+.optionsContainer img{
+    width: 20px;
+    margin: 0px 20px;
+}

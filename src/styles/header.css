@@ -1,0 +1,48 @@
+.headerContainer{
+    color: black;
+    display: flex;
+    width: 100%;
+    border: 2px solid #ccc;
+}
+.logoHolder{
+    color: #64A1F5;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 25px;
+}
+.userDetails{
+    display: flex;
+    padding: 25px;
+    margin-left: 75%;
+}
+.userDetails .nameContainer{
+    padding: 15px;
+    color: #64A1F5;
+    font-size: 25px;
+}
+.userDetails .profileImageContainer{
+    padding: 10px 5px;
+}
+.userDetails .profileImageContainer img{
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 2px;
+    cursor: pointer;
+}
+.profileCard{
+    position: fixed;
+    color: white;
+    background-color: #64A1F5;
+    text-align: center;
+    font-weight: 700;
+    top: 90px;
+    right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.profileCard .card1{
+    border-bottom: 1px solid white;
+    padding: 5px 0px;
+
+}

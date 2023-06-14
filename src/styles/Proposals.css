@@ -1,0 +1,34 @@
+.proposalsHolder{
+    color: black;
+    margin: 2% auto;
+    width: 90%;
+    /* border: 2px solid black; */
+}
+.proposalsHolder span{
+    font-weight: bold;
+    font-size: 25px;
+}
+.proposalsHolder img{
+    margin: 0px 1%;
+    /* width: 1%; */
+}
+.proposalsHolder input{
+    border: none;
+    width: 70%;
+    height: 30px;
+    /* margin: 1%; */
+}
+.proposalsHolder input :focus{
+    border: 1px solid #ccc;
+}
+.proposalsHolder button{
+    margin: 1%;
+    width: 95px;
+    height: 40px;
+    background-color: #4E94F4;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    border: #4E94F4;
+    border-radius: 5px;
+}

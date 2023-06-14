@@ -1,0 +1,34 @@
+.logoContainer{
+    margin: 5px;
+    margin-left: 20px;
+}
+.homeContainer{
+    width: 100%;
+    min-width: 1500px;
+    min-height: 100vh;
+    background-image: url("../Images/party-people-enjoy-concert-at-festival-summer-DHDMPWH.png");
+    background-position: fixed;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    color: white;
+}
+.sectionContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightSection{
+    margin: 40px
+}
+.leftSection{
+    width: 45%;
+    font-size: 60px
+}
+.leftSection p{
+    margin-top: 25%;
+    margin-right: 45%;
+}
+.currentUserType{
+    color: #4E94F4;
+}

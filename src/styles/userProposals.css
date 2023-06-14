@@ -1,0 +1,32 @@
+.bannerImage{
+    width: 100%;
+}
+.bannerImage img{
+    max-width: 100%;
+}
+.proposalsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.ProposalCard{
+    margin: 30px;
+    border: 2px solid #ccc;
+    box-shadow: 10px 10px 10px#ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 300px;
+}
+.ProposalCard div{
+    padding: 5px 0px;
+    font-weight: bold;
+}
+.ProposalCard img{
+    max-width: 300px;
+}
+.allPosts span{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0px 30px;
+}

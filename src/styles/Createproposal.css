@@ -1,0 +1,146 @@
+.createProposal {
+  width: 60%;
+  margin: 1% auto;
+  border: 1px solid #ccc;
+  border-radius: 1%;
+  box-shadow: 5px 10px 10px 10px #cccc;
+  position: fixed;
+  top: 0;
+  left: 350px;
+  background-color: white;
+}
+label {
+  display: block;
+  margin-bottom: 2%;
+  color: #2d2d2e;
+  font-weight: bold;
+}
+/* input,
+select {
+  
+} */
+.titleContainer {
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  text-align: center;
+  display: flex;
+}
+.titleContainer *{
+  margin-left: 40%;
+}
+.titleContainer img{
+  margin-left: 30%;
+}
+.contentContainer {
+  display: flex;
+}
+.line {
+  height: 65vh;
+  border: 1px solid #cccc;
+  margin: 2vh 0%;
+}
+.contentContainer .leftContainer,
+.rightContainer {
+  width: 50%;
+}
+.leftContainer > .fieldContainer {
+  width: 90%;
+  margin: 0% auto;
+}
+.leftContainer > .fieldContainer input {
+  width: 80%;
+  height: 25px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+.leftContainer .fieldContainer {
+  padding: 2%;
+}
+.leftRowContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.leftRowContainer > .fieldContainer {
+  width: 40%;
+}
+#decpInput {
+  width: 90%;
+  margin: 0% auto;
+  height: 150px;
+  border-radius: 5px;
+}
+.rightContainer{
+  width: 45%;
+  margin: 1% auto;
+}
+.img-field {
+  width: 100%;
+  margin-bottom: 25px;
+}
+.img-field .label-field {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+ .img-field .label-field input {
+    height: 30px;
+    width: 75px;
+    display: none;
+}
+.img-field .label-field #img-btn {
+    padding: 5px 20px;
+    background: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #006BD9;
+    border: 1px solid #0078DD;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.img-field .img-grid {
+    display: grid;
+    grid-template-columns: repeat(5, calc((100% - 20px) / 5));
+    grid-template-rows: repeat(2, 84px);
+    grid-gap: 5px;
+}
+.img-field .img-grid .img-container {
+    background: #FAFAFA;
+    overflow: hidden;
+}
+.img-field .img-grid .img-container img {
+    width: 100%;
+}
+.foodContainer textarea{
+  width: 90%;
+  height: 70px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.EventContianer textarea{
+  width: 90%;
+  height: 70px;
+  border-radius: 10px;
+}
+hr{
+  width: 90%;
+}
+.buttonContainer{
+  width: 100px;
+  margin: 0px auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.submitButton{
+  width: 100px;
+  margin: 10px auto;
+  height: 40px;
+  background-color: #4E94F4;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}

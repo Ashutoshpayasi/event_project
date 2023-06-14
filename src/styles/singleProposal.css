@@ -1,0 +1,111 @@
+.preLoading{
+    font-size: 30px;
+    color: #64A1F5;
+}
+.bodyContainer{
+    width: 85%;
+    margin: 10px auto;
+}
+.topRow{
+    display: flex;
+    /* justify-content: center; */
+}
+.topRow .ContactName{
+    font-weight: bold;
+    font-size: 20px;
+}
+.topRow .SelectButton{
+    margin-left: 70%;
+}
+.vendorDetails img{
+    width: 100%;
+    height: 50%;
+}
+.SelectButton button{
+    background-color: white;
+    color: #64A1F5;
+    font-weight: bold;
+    border: 2px solid #64A1F5;
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.row1{
+    display: flex;
+}
+.row1 >*{
+    box-shadow: 10px 10px 10px #cccc;
+}
+.vendorDetails{
+    width: 30%;
+    margin: 1% 5%;
+    border: 1px solid #ccc;
+}
+.vendorDetails .column{
+    /* max-width: 200px; */
+    display: flex;
+}
+.vendorDetails .column .topic1{
+    color: #767676;
+}
+.vendorDetails .column .topic2{
+    color: #767676;
+}
+.vendorDetails .column *{
+    width: 50%;
+    padding: 1%;
+}
+.venue{
+    width: 30%;
+    margin: 1% 2%;
+    border: 1px solid #ccc;
+}
+.venue .venueTopic{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+.venue .venueDetails{
+    padding: 20px;
+    color: #767676;
+}
+.row2{
+    display: flex;
+    justify-content: center;
+}
+.row2 > *{
+    margin: 3%;
+}
+.album{
+    border: 1px solid #ccc;
+    width: 30%;
+    box-shadow: 10px 10px 10px #cccc;
+    height: 30vh;
+}
+.album img{
+    width: 30%;
+    display: flex;
+}
+.albumtopic{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    display: block;
+}
+.albumImages{
+    display: flex;
+    flex-wrap: wrap;
+    /* overflow: scroll; */
+}
+.albumImages *{
+    margin: 5px ;
+}
+.albumdetails{
+    padding: 20px;
+    color: #767676;
+}
+#eventDetails{
+    padding: 20px;
+}

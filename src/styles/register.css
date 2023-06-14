@@ -1,0 +1,88 @@
+
+.formHolder{
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+}
+.topicHolder{
+    color: black;
+    /* text-align: center; */
+    margin: 20px;
+    font-size: 20px;
+}
+.formHolder input{
+    display: block;
+    width: 90%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid  #D1D1D1;
+    margin: 20px auto;
+}
+.formHolder input :focus{
+    border-color: #4E94F4;
+}
+.buttonHolder{
+    height: 60px;
+    border-radius: 10px;
+}
+.buttonHolder button{
+    width: 50%;
+    height: 50px;
+    border: 1px solid #cccc;
+    border-top: none;
+    background-color: white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.registerBlock{
+    margin: 5px;
+    text-align: right;
+}
+.registerBlock button{
+    margin:  0px 10px;
+    background-color: #4E94F4;
+    border: none;
+    width: 100px;
+    height: 45px;
+    border-radius: 5px;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 15px;
+}
+.siginButton{
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    color: #4E94F4;
+    margin: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.forgotPassword{
+    text-align: right;
+    margin: 20px 0;
+    margin-top: 0px;
+}
+.forgotPassword a{
+    margin: 5px 30px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.loader{
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    border: 1px solid gray;
+    border-top: 1px solid white;
+    border-radius: 50%;
+    animation: authLoader 2s infinite linear;
+}
+.error{
+    color: red;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    width: 200px;
+    margin: -1px auto;
+}

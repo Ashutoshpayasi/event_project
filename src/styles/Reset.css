@@ -1,0 +1,38 @@
+.resetMainContainer {
+  width: 100%;
+  min-width: 1500px;
+  min-height: 100vh;
+  background-image: url("../Images/party-people-enjoy-concert-at-festival-summer-DHDMPWH.png");
+  background-position: fixed;
+  background-size: cover;
+  display: flex;
+  flex-flow: column;
+  color: black;
+}
+.reset {
+  width: 350px;
+  border: 1px solid #cccc;
+  box-shadow: 10px 10px 10px #cccc;
+  position: fixed;
+  top: 35%;
+  left: 60%;
+  border-radius: 20px;
+  background-color: white;
+}
+.reset * {
+  width: 95%;
+  margin: 1% auto;
+}
+.reset button {
+  width: 30%;
+  color: #4e94f4;
+  background-color: white;
+  border: 2px solid #4e94f4;
+  margin-left: 35%;
+  font-size: 15px;
+  border-radius: 10px;
+}
+#resetCloseImage {
+  width: 5%;
+  margin-right: 5%;
+}
